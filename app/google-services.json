@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "130720260438",
+    "firebase_url": "https://koordinatliste.firebaseio.com",
+    "project_id": "koordinatliste",
+    "storage_bucket": "koordinatliste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130720260438:android:e4fa3ecc22f59fea7a36f7",
+        "android_client_info": {
+          "package_name": "com.puanla.uygulamam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130720260438-5uqef99tr8ualrfianc6i2deui6s4dts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.puanla.uygulamam",
+            "certificate_hash": "38e61eeadcc9f2181ec884eda303a94c35087226"
+          }
+        },
+        {
+          "client_id": "130720260438-51i38o8p85t4anfs8e70a5pba5oc009b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEOtB-wfVzuq540jROo_lY4CvNad8Wqus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130720260438-51i38o8p85t4anfs8e70a5pba5oc009b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

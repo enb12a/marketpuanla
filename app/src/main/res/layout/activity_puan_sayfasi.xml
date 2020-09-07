@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <AbsoluteLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PuanSayfasi">
+
+
+        <TextView
+        android:id="@+id/kafeisim"
+        android:layout_width="280dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_x="74dp"
+        android:layout_y="99dp"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <Button
+        android:id="@+id/geri"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:drawableTop="@drawable/back"
+        android:layout_marginLeft="45dp"
+        android:layout_x="3dp"
+
+        android:layout_y="12dp" />
+
+
+    <EditText
+        android:layout_width="318dp"
+        android:id="@+id/yorumtxt_Puansayfasi"
+        android:layout_height="wrap_content"
+        android:hint="Yorum yapınız.."
+        android:layout_x="42dp"
+        android:layout_y="359dp" />
+
+    <Button
+        android:id="@+id/cikis"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="45dp"
+        android:layout_x="300dp"
+        android:layout_y="12dp"
+        android:drawableTop="@drawable/ic_cikis" />
+
+
+    <TextView
+        android:id="@+id/ortpuan"
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:layout_x="13dp"
+        android:layout_y="184dp"
+        android:text="ORTALAMA PUAN="
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <RatingBar
+        android:id="@+id/puansistem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="84dp"
+        android:layout_y="249dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <Button
+        android:id="@+id/btnpuanver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="163dp"
+        android:layout_y="309dp"
+        android:text="Puan VER"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/btnyorumgör"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="203dp"
+        android:layout_y="415dp"
+        android:text="Yorumları Gör"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/btnyorumyap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="414dp"
+        android:text="Yorum Yap"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <TextView
+        android:id="@+id/adres"
+        android:layout_width="314dp"
+        android:layout_height="93dp"
+        android:layout_x="47dp"
+        android:layout_y="544dp"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+
+    <TextView
+        android:id="@+id/iletisim"
+        android:layout_width="312dp"
+        android:layout_height="72dp"
+        android:layout_x="49dp"
+        android:layout_y="474dp"
+        android:text="ADRES BİLGİLERİ:"
+        android:textSize="26dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <EditText
+    android:id="@+id/edt_ortalama"
+    android:layout_width="151dp"
+    android:layout_height="50dp"
+    android:layout_x="245dp"
+    android:layout_y="184dp"
+    android:inputType="numberDecimal|numberSigned"
+    tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="3dp"
+        app:srcCompat="@drawable/market" />
+
+</AbsoluteLayout>
